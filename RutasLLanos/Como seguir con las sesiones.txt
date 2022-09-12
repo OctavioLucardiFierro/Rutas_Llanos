@@ -1,0 +1,46 @@
+Para continiuar con una sesion que teniamos anteriormente, en el codigo pegamos lo siguiente 
+arriba de todo, primero.
+
+<?php
+    session_start();//sigue con la sesion
+    error_reporting(E_ERROR | E_PARSE); //evita mostrar errores por si ingresamos a la paguina sin haber iniciado sesion     
+?>
+
+---------------------------Para que solo se pueda entrar si tenemos una sesion (Ejemplo con cursos.php)-----------------------
+<?php
+    session_start();//sigue con la sesion
+    error_reporting(E_ERROR | E_PARSE);//evita mostrar errores por si ingresamos a la paguina sin haber iniciado sesion  
+    $varsesion = $_SESSION['email']; // guardo la variable del mail en una nueva para mas comodidad.
+       
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+
+<title>Ver Cursos</title>
+
+    <link rel = "stylesheet" href = "CSS/usuarios.css">
+
+
+</head>
+<body>
+<?php
+    if ($varsesion == null || $varsesion = ''){ //pregunta si iniciaste sesion, lo preguntamos en el body asi nos toma el css 
+        
+        ?><h1>Inicie sesion para continuar</h1>
+        <a href="login/form-login.php">Iniciar Sesion</a><?php
+        die(); // si no lo hiciste te aparece un boton para iniciar sesion y se detiene el resto del codigo
+    }      
+?>
+..
+...
+....
+....
+....
+codigo
+....
+...
+..
+.
+</body>
+</html>

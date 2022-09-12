@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Recuperatorio</h2>
+
+    <script>     
+        numerosdivididos = 0
+        numerosumados = 0
+        cantidadnumeros = parseInt(prompt("Pone la cantidad de numeros"))
+        for (i = 0; i < cantidadnumeros; i++) {
+            numero = parseInt(prompt("Pone un numero"))
+            numerosumados = numerosumados + numero
+        }
+        numerosdivididos = numerosumados / cantidadnumeros 
+        document.write("El promedio es: "+numerosdivididos)
+
+    </script>
+</body>
+</html>     

@@ -1,0 +1,68 @@
+body{
+    width:100%;
+    height: 100%;
+    background-image: url(../html/gimnasio3.png);
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: top;
+}
+nav{
+    width: 95%;
+    background-color: rgb(20, 20, 119);
+    text-align: right;
+}
+
+.barra_de_navegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(20, 20, 119);
+}
+.ul-li{
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(20, 20, 119);
+}
+
+.li-a{
+    background-color:salmon;
+    padding: 10px 50px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.li-a:visited{
+    background-color:salmon;
+    text-decoration: none;
+    color: black;
+}
+.li-a:hover{
+    background-color: rgb(197, 104, 93);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.form-element {
+    margin: 20px 0;
+}
+.contenedor{
+    margin: 100px auto;
+    text-align: center ;
+    padding: 20px;
+    width: 1800px;
+    color: white;
+}
+h3{
+    font-size: 40px;
+}
+.ibai{
+    width: 500px;
+}
+.texto{
+    width: auto;  
+    font-size: 25px;
+}
