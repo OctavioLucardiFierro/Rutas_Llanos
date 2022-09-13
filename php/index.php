@@ -11,6 +11,7 @@ $varsesion = $_SESSION['nombre'];
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" href="../css/css_general.css">
 		<h1>¿Que va a hacer? <?php   ?></h1>
 		<meta charset="utf-8">
 
