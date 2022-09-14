@@ -25,18 +25,16 @@ $varsesion = $_SESSION['nombre'];
 		<body>
 		<div class="container1">
 
-<a href="form.php"><button>INERTAR OBRA</button></a>
-<br>
-<br>
-<a href="formupdate.php"><button>MODIFICAR OBRA</button></a>
-<br>
-<br>
-<a href="formdelete.php"><button>BORRAR OBRA</button></a>
-<br>
-<br>
-
-
-					<?php
+		<a href="form.php"><button>INERTAR OBRA</button></a>
+			<br>
+			<br>
+		<a href="formupdate.php"><button>MODIFICAR OBRA</button></a>
+			<br>
+			<br>
+		<a href="formdelete.php"><button>BORRAR OBRA</button></a>
+			<br>
+			<br>
+				<?php
 			if ($varsesion == null || $varsesion = '')
 				{
 					?>
