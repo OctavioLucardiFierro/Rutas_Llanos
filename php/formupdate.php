@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<h1>Registrar Obras</h1>
+<link rel = "stylesheet" href = "css/css_tabla.css">
+
+		<h1>Modifixcate la Obra</h1>
 		<meta charset="utf-8">
 
 <br><br>
@@ -21,6 +23,7 @@
 
     <?php
 	include("update.php");
+	include("MostrarObras.php");
     ?>
 
 </body>
