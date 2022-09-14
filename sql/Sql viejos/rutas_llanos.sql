@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-09-2022 a las 22:08:06
--- Versión del servidor: 10.4.21-MariaDB
--- Versión de PHP: 7.4.23
+-- Tiempo de generación: 13-09-2022 a las 03:13:55
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 7.4.29
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -37,34 +37,6 @@ CREATE TABLE `obras` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
 
 --
--- Volcado de datos para la tabla `obras`
---
-
-INSERT INTO `obras` (`id`, `nombre_de_la_obra`, `descripsion`, `sucursal_museo`, `zona`, `piso`) VALUES
-(1, 'EL CARNOTAURUS', 'Esqueleto de un carnotauro', 'MUSEO ARGENTINO DE CIENCIAS NATURALES', 'A', 0);
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `usuarios`
---
-
-CREATE TABLE `usuarios` (
-  `id` int(11) NOT NULL,
-  `Nombre_de_Usuario` varchar(100) NOT NULL,
-  `gmail` varchar(100) NOT NULL,
-  `D.N.I` int(11) NOT NULL,
-  `Contraseña` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Volcado de datos para la tabla `usuarios`
---
-
-INSERT INTO `usuarios` (`id`, `Nombre_de_Usuario`, `gmail`, `D.N.I`, `Contraseña`) VALUES
-(1, 'Ibai Llanos', 'lucardini@gmail.com', 123456789, 'nosequeponer');
-
---
 -- Índices para tablas volcadas
 --
 
@@ -75,12 +47,6 @@ ALTER TABLE `obras`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indices de la tabla `usuarios`
---
-ALTER TABLE `usuarios`
-  ADD PRIMARY KEY (`id`);
-
---
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -88,13 +54,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de la tabla `obras`
 --
 ALTER TABLE `obras`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT de la tabla `usuarios`
---
-ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
