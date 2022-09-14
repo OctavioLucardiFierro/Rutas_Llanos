@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<h1>Registrar Obras</h1>
+<link rel = "stylesheet" href = "css/css_tabla.css">
+
+		<h1>Modifixcate la Obra</h1>
 		<meta charset="utf-8">
 
 <br><br>
@@ -10,6 +12,7 @@
 <body>
 
     <form method="post">
+		<input type="text"   name="id"          placeholder="ID">	
     	<input type="text"   name="nombre"      placeholder="Nombre">
     	<input type="text"   name="descripcion" placeholder="Descripcion">
     	<input type="text"   name="sucur"       placeholder="Sucursal">
@@ -21,6 +24,7 @@
 
     <?php
 	include("update.php");
+	include("MostrarObras.php");
     ?>
 
 </body>
