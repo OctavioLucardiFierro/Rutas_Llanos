@@ -23,10 +23,10 @@ $varsesion = $_SESSION['nombre'];
 <a href="form.php"><button>INERTAR OBRA</button></a>
 <br>
 <br>
-<a href="form.php"><button>MODIFICAR OBRA</button></a>
+<a href="formupdate.php"><button>MODIFICAR OBRA</button></a>
 <br>
 <br>
-<a href="form.php"><button>BORRAR OBRA</button></a>
+<a href="formdelete.php"><button>BORRAR OBRA</button></a>
 <br>
 <br>
 
