@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D3D4B"
+    tools:context=".CrearUsuario">
+
+    <EditText
+        android:id="@+id/Ingresesunombre"
+        android:layout_width="358dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="32dp"
+        android:background="#000000"
+        android:backgroundTint="#B2FFFFFF"
+        android:ems="10"
+        android:hint="Ingrese su usuario"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Ingresesucorreo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/Ingresesucorreo"
+        android:layout_width="352dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="24dp"
+        android:background="#B2FFFFFF"
+        android:ems="10"
+        android:hint="Ingrese su gmail u otro correo"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/IngreseDNI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/IngreseDNI"
+        android:layout_width="348dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:background="#B2FFFFFF"
+        android:ems="10"
+        android:hint="Ingrese du D.N.I"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/ContraseñaIngresadaParaCrear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ContraseñaIngresadaParaCrear"
+        android:layout_width="338dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="252dp"
+        android:background="#B2FFFFFF"
+        android:ems="10"
+        android:hint="Ingrese su contraseña"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Volver_atras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:text="Volver"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Crear_Usuario"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Crear_Usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="116dp"
+        android:text="Crear Usuario"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
