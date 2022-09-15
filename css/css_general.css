@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(255, 0, 238);
+    background-color: rgb(77, 61, 75);
+    align-items: center;
 }
 
 h1{
@@ -28,4 +29,15 @@ button:hover
 	background-color: #008cff; /* Green */
     color: rgb(250, 250, 250);
     
+}
+label{
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+.contenido{
+    border: tomato solid 2px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
 }

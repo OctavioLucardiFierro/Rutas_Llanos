@@ -7,3 +7,5 @@ https://programacion.net/articulo/como_crear_un_sistema_de_comentarios_con_php_y
 
 https://www.w3schools.com/php/php_mysql_insert.asp
 https://nicepage.com/es/ht/44075/arte-interactivo-plantilla-html
+
+https://es.stackoverflow.com/questions/178870/porque-no-se-actualizan-los-estilos-css#:~:text=Si%20el%20problema%20lo%20tienes,CMD%20%2B%20SHIFT%2BR).

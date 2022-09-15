@@ -1,6 +1,10 @@
 body{
 	text-align: center;
-	background-color: aqua;
+    background-color: rgb(77, 61, 75);
+}
+h1{
+	color: white;
+	font-family: 'Bebas Neue', cursive;
 }
 .tabla {
 	
