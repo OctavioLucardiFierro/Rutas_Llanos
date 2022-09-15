@@ -9,7 +9,7 @@ if (isset($_POST['boton'])) {
 	    $sucur  = trim($_POST['sucur']);
 	    $zona   = trim($_POST['zona']);
    		$piso   = trim($_POST['piso']);
-	    $consulta  = "INSERT INTO obras (`id`, `nombre_de_la_obra`, `descripsion`, `sucursal_museo`, `zona`, `piso`) VALUES (null,'$nombre','$des','$sucur','$zona','$piso') WHERE ";
+	    $consulta  = "INSERT INTO `obras`(`id`, `nombre_de_la_obra`, `descripsion`, `sucursal_museo`, `zona`, `piso`) VALUES (null,'$nombre','$des','$sucur','$zona','$piso')";
 	    
 	    $resultado = mysqli_query($conex,$consulta);
     }

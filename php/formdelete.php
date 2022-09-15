@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-		<h1>Registrar Obras</h1>
-		<meta charset="utf-8">
+<link rel = "stylesheet" href = "css/css_tabla.css">
 
+		<h1>Modifixcate la Obra</h1>
+		<meta charset="utf-8">
+		<a href="index.php"><button>VOLVE PAPA</button></a>
 <br><br>
 
 </head>
 <body>
 
     <form method="post">
-    	<input type="text"   name="nombre"      placeholder="Nombre">
-    	<input type="text"   name="descripcion" placeholder="Descripcion">
-    	<input type="text"   name="sucur"       placeholder="Sucursal">
-    	<input type="text"   name="zona"        placeholder="zona">
-   		<input type="text"   name="piso"        placeholder="piso"> 
-    	<input type="submit" name="boton">
+		<input type= "text"   name="id"          placeholder="ID">	
     </form>
 	
 
     <?php
 	include("delete.php");
+	include("MostrarObras.php");
     ?>
 
 </body>

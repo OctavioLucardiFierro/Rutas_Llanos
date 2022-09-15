@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	
 		<h1>Registrar Obras</h1>
 		<meta charset="utf-8">
-
+		<a href="index.php"><button>VOLVE PAPA</button></a>
+		<link rel = "stylesheet" href = "../css/css_tabla.css">
 <br><br>
 
 </head>

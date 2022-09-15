@@ -25,7 +25,7 @@ $varsesion = $_SESSION['nombre'];
 		<body>
 		<div class="container1">
 
-		<a href="form.php"><button>INERTAR OBRA</button></a>
+		<a href="forminsert.php"><button>INERTAR OBRA</button></a>
 			<br>
 			<br>
 		<a href="formupdate.php"><button>MODIFICAR OBRA</button></a>
