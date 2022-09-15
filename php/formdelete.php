@@ -13,6 +13,7 @@
 
     <form method="post">
 		<input type= "text"   name="id"          placeholder="ID">	
+		<input type="submit" name="boton">
     </form>
 	
 

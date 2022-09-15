@@ -23,6 +23,7 @@
 
     <?php
 	include("insert.php");
+    include("MostrarObras.php");
     ?>
 
 </body>
