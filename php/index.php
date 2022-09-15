@@ -23,6 +23,15 @@ $varsesion = $_SESSION['nombre'];
 
 		</head>
 		<body>
+
+		<?php
+			if ($varsesion == null)
+			{
+				header("location: form-login.php");
+			}
+		
+		?>
+
 		<div class="container1">
 
 		<a href="forminsert.php"><button>INERTAR OBRA</button></a>
