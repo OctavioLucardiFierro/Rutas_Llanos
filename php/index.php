@@ -46,13 +46,13 @@ $varsesion = $_SESSION['nombre'];
 		
 		<br>
 		<div class="container1">
-		<a href="formdelete.php"><button>Alta de Turno</button></a>
+		<a href="proximamente.php"><button>Alta de Turno</button></a>
 			<br>
 			<br>
-		<a href="formdelete.php"><button>Modificar Turno</button></a>
+		<a href="proximamente.php"><button>Modificar Turno</button></a>
 			<br>
 			<br>
-	    <a href="formdelete.php"><button>Cancelar Turno</button></a>
+	    <a href="proximamente.php"><button>Cancelar Turno</button></a>
 			<br>
 			<br>	
     	</div>
@@ -60,25 +60,25 @@ $varsesion = $_SESSION['nombre'];
 		<br>
 
 		<div class="container1">
-		<a href="formdelete.php"><button>Alta de Mapa</button></a>
+		<a href="proximamente.php"><button>Alta de Mapa</button></a>
 			<br>
 			<br>
-		<a href="formdelete.php"><button>Modificar Mapa</button></a>
+		<a href="proximamente.php"><button>Modificar Mapa</button></a>
 			<br>
 			<br>
-	    <a href="formdelete.php"><button>Borrar Mapa</button></a>
+	    <a href="proximamente.php"><button>Borrar Mapa</button></a>
 			<br>
 			<br>	
     	</div>
 		<br>
 		<div class="container1">
-		<a href="formdelete.php"><button>Alta de Visita</button></a>
+		<a href="proximamente.php"><button>Alta de Visita</button></a>
 			<br>
 			<br>
-		<a href="formdelete.php"><button>Modificar Visita</button></a>
+		<a href="proximamente.php"><button>Modificar Visita</button></a>
 			<br>
 			<br>
-	    <a href="formdelete.php"><button>Borrar Visita</button></a>
+	    <a href="proximamente.php"><button>Borrar Visita</button></a>
 			<br>
 			<br>	
     	</div>
