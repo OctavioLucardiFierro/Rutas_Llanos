@@ -1,11 +1,10 @@
 body{
 	text-align: center;
-	background-color: rgb(0, 0, 0);
+	background-color: aqua;
 }
 .tabla {
 	
 	background-color: rgb(107, 106, 105);
-
 	text-align: center;
 	margin: 0 auto;
 
@@ -24,7 +23,7 @@ padding:20px;
 }
 
 thead{
-	width: auto;
+width: auto;
 background-color: rgb(107, 106, 105);
 border-bottom: solid 5px rgb(10, 66, 122);
 color:white;
