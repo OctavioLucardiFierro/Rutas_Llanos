@@ -10,14 +10,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    private String contraseña = "Usuario";
+    private String CContraseña = "Usuario";
     private String usuario = "Lucardini";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        Intent IniciarSesion = new Intent(this, PantallaPrincipal.class);
         Intent CrearU = new Intent(this, CrearUsuario.class);
         Intent Entrarde1 = new Intent(this, PantallaPrincipal.class);
 
@@ -42,6 +42,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(Entrarde1);
+            }
+        });
+
+        iNICIAR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if ((contraseña.getText().toString()).equals(CContraseña)  && (Nombre.getText().toString()).equals(usuario))
+                {
+
+                    startActivity(IniciarSesion);
+                }
             }
         });
 
