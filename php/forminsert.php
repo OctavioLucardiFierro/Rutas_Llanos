@@ -1,8 +1,6 @@
 <?php
 error_reporting(E_ERROR | E_PARSE);//evita mostrar errores por si ingresamos a la paguina sin haber iniciado sesion 
 session_start();
-echo $_SESSION['nombre'];
-error_reporting(E_ERROR | E_PARSE);//evita mostrar errores por si ingresamos a la paguina sin haber iniciado sesion  
 $varsesion = $_SESSION['nombre'];
 ?>
 
@@ -31,6 +29,7 @@ $varsesion = $_SESSION['nombre'];
     	<input type="text"   name="sucur"       placeholder="Sucursal">
     	<input type="text"   name="zona"        placeholder="zona">
    		<input type="text"   name="piso"        placeholder="piso"> 
+		<br>
     	<input type="submit" name="boton">
     </form>
 	
