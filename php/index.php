@@ -32,7 +32,7 @@ $varsesion = $_SESSION['nombre'];
 
 		<div class="container1">
 
-		<a href="forminsert.php"><button>INERTAR OBRA</button></a>
+		<a href="forminsert.php"><button>Alta de OBRA</button></a>
 			<br>
 			<br>
 		<a href="formupdate.php"><button>MODIFICAR OBRA</button></a>
@@ -41,23 +41,52 @@ $varsesion = $_SESSION['nombre'];
 		<a href="formdelete.php"><button>BORRAR OBRA</button></a>
 			<br>
 			<br>
-				<?php
-			if ($varsesion == null || $varsesion = '')
-				{
-					?>
-						<a href="form-login.php"><button>INICIAR SESION</button></a>
-					<?php
-				}
-			else
-				{
-					?>
-						<a href="cerrar.php"><button>CERRAR SESION</button></a>
-					<?php
-				}
-			?>
+									
 		</div>
 		
+		<br>
+		<div class="container1">
+		<a href="formdelete.php"><button>Alta de Turno</button></a>
+			<br>
+			<br>
+		<a href="formdelete.php"><button>Modificar Turno</button></a>
+			<br>
+			<br>
+	    <a href="formdelete.php"><button>Cancelar Turno</button></a>
+			<br>
+			<br>	
+    	</div>
 
+		<br>
+
+		<div class="container1">
+		<a href="formdelete.php"><button>Alta de Mapa</button></a>
+			<br>
+			<br>
+		<a href="formdelete.php"><button>Modificar Mapa</button></a>
+			<br>
+			<br>
+	    <a href="formdelete.php"><button>Borrar Mapa</button></a>
+			<br>
+			<br>	
+    	</div>
+		<br>
+		<div class="container1">
+		<a href="formdelete.php"><button>Alta de Visita</button></a>
+			<br>
+			<br>
+		<a href="formdelete.php"><button>Modificar Visita</button></a>
+			<br>
+			<br>
+	    <a href="formdelete.php"><button>Borrar Visita</button></a>
+			<br>
+			<br>	
+    	</div>
+<br>
+		<div class="container1">
+		<br>
+		<a href="cerrar.php"><button>CERRAR SESION</button></a>
+		</div>
 
 		</body>
 </html>
