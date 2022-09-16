@@ -1,8 +1,24 @@
 body{
     background-color: rgb(77, 61, 75);
     align-items: center;
+    
+}
+.carousel-inner{
+    height:400px;
+    width: 600px;
+    justify-content: center;
+}
+#imgcarrusel{
+    height:400px;
+    width: 600px;
 }
 
+.ponerlaEnELMedio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 h1{
     text-align: center;
     font-family: 'Alfa Slab One', cursive;
