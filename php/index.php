@@ -14,7 +14,7 @@ $varsesion = $_SESSION['nombre'];
 			<link rel="preconnect" href="https://fonts.googleapis.com">
 			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 			<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-				<h1>¿Que va a hacer? <?php $_SESSION['nombre'];  ?></h1>
+				
 				<meta charset="utf-8">
 
 		<br><br>
@@ -22,6 +22,9 @@ $varsesion = $_SESSION['nombre'];
 		</head>
 		<body>
 
+		
+
+		<h1>¿Que va a hacer? <?php $_SESSION['nombre'];  ?></h1>
 		<?php
 			if ($varsesion == null)
 			{
@@ -56,6 +59,28 @@ $varsesion = $_SESSION['nombre'];
 		<br>
 		<a href="cerrar.php"><button>CERRAR SESION</button></a>
 		</div>
+		<br><br><br>
+
+		<table class = "tabla2" >
+			 <thead>
+
+                 <th class = "col">Usuario</th>
+				 <th class = "col">Comentario</th>
+
+			 </thead>
+				 <tbody>
+				 <tr>
+					<td>Juan</td>
+					<td>Que lugar de mierda y el carnotatauro es una cagada 0/10</td>
+				 </tr>
+				 </tbody>
+		 </table>
+
+
+
+
+
+
 
 		</body>
 </html>

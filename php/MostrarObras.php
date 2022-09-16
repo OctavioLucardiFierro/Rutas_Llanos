@@ -32,7 +32,7 @@ if ($inc) {
 				 <tbody>
 				 <?php while($row = $resultado->fetch_assoc()){    ?>
 					 <tr>
-						<td class = "fil"><?php   echo $row['id'] ?></td>
+						 <td class = "fil"><?php  echo $row['id'] ?></td>
 						 <td class = "fil"><?php  echo $row['nombre_de_la_obra'] ?></td>
                          <td class = "fil"><?php  echo $row['descripsion'] ?></td>
 						 <td class = "fil"><?php  echo $row['sucursal_museo'] ?></td>

@@ -39,4 +39,28 @@ label{
     text-align: center;
     padding: 20px;
     margin: 20px;
+    overflow: hidden;
+}
+
+
+.tabla2{
+	width: 300px;
+	background-color: rgb(107, 106, 105);
+   	
+	color:white;
+	text-align: left;
+	margin: 0 auto;
+}
+th, td
+{
+    border: solid rgb(10, 179, 209) 3px;
+    padding:20px;
+}
+
+thead{
+width: auto;
+background-color: rgb(107, 106, 105);
+border-bottom: solid 5px rgb(45, 52, 58);
+color:white;
+
 }
