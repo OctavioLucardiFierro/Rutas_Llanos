@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         EditText contraseña = (EditText) findViewById(R.id.ingresacontraseña);
 
         Button iNICIAR       = (Button) findViewById(R.id.InicioSesion);
-        TextView cartelCrear = (TextView) findViewById(R.id.cartelcrear);
         Button Crear         = (Button) findViewById(R.id.Crearusuario);
 
         Button Entrar        = (Button) findViewById(R.id.Entrarde1);

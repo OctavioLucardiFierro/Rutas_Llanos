@@ -15,14 +15,12 @@ public class PantallaPrincipal extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pantalla_principal);
 
-        int imagenes[]= {R.drawable.imgprueba1, R.drawable.imgprueba2, R.drawable.imgprueba3, R.drawable.imgprueba4};
+        int imagenes[]= {R.drawable.imagen1, R.drawable.imagen2, R.drawable.imagen3, R.drawable.imagen4, R.drawable.imagen5};
         v_flipper = findViewById(R.id.Visor);
 
         for (int image: imagenes){
             flipperImagenes(image);
         }
-
-
     }
 
     public void flipperImagenes(int imagen)
