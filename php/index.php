@@ -99,6 +99,8 @@ $varsesion = $_SESSION['nombre'];
 		</div>
 		<br><br><br>
 
+		<h2>Comentarios de Usuarios</h2>
+
 		<table class = "tabla2" >
 			 <thead>
 
@@ -113,12 +115,5 @@ $varsesion = $_SESSION['nombre'];
 				 </tr>
 				 </tbody>
 		 </table>
-
-
-
-
-
-
-
 		</body>
 </html>
