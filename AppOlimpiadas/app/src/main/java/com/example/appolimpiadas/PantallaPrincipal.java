@@ -31,13 +31,13 @@ public class PantallaPrincipal extends AppCompatActivity {
             flipperImagenes(image);
         }
 
-        MostrarTurnos.setOnClickListener(new View.OnClickListener() {
+        PonerComentario.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(VERtURNOS);
             }
         });
-        PonerComentario.setOnClickListener(new View.OnClickListener() {
+        MostrarTurnos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(Comentar);
