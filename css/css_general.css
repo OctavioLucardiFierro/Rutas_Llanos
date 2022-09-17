@@ -87,7 +87,8 @@ th{
 }
 
 td:hover{
-    background-color: rgb(52, 34, 173);
+    background-color: rgb(27, 26, 34);
+    color: azure;
 }
 h2{
     text-align: center;

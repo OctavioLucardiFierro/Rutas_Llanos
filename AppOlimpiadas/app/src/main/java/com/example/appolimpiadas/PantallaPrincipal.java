@@ -19,8 +19,10 @@ public class PantallaPrincipal extends AppCompatActivity {
         setContentView(R.layout.activity_pantalla_principal);
 
         Intent VERtURNOS = new Intent(this, MostrarTurnos.class);
+        Intent Comentar = new Intent(this, Comentarios.class);
 
-        Button MostrarTurnos = (Button) findViewById(R.id.buttonBuscar);
+        Button PonerComentario = (Button) findViewById(R.id.PonerComentario);
+        Button MostrarTurnos   = (Button) findViewById(R.id.buttonBuscar);
 
         int imagenes[]= {R.drawable.imagen1, R.drawable.imagen2, R.drawable.imagen3, R.drawable.imagen4, R.drawable.imagen5};
         v_flipper = findViewById(R.id.Visor);
@@ -35,7 +37,15 @@ public class PantallaPrincipal extends AppCompatActivity {
                 startActivity(VERtURNOS);
             }
         });
+        PonerComentario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(Comentar);
+            }
+        });
     }
+
+
 
     public void flipperImagenes(int imagen)
     {
