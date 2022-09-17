@@ -16,6 +16,12 @@
         android:id="@+id/buttonBuscar"
         android:layout_width="176dp"
         android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="73dp"
         android:drawableLeft="@drawable/busquedaboton"
         android:text="Buscar Turnos"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,16 +31,14 @@
 
     <Button
         android:id="@+id/PonerComentario"
-        android:layout_width="170dp"
+        android:layout_width="148dp"
         android:layout_height="89dp"
-        android:layout_below="@+id/Visor"
+        android:layout_above="@+id/buttonBuscar"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="122dp"
-        android:layout_marginTop="160dp"
-        android:layout_marginEnd="119dp"
-        android:layout_marginBottom="370dp"
-        android:text="Poner Comentario" />
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="30dp"
+        android:text="Dejar Comentarios" />
 
 </RelativeLayout>

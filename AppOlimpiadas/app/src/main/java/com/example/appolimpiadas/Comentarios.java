@@ -3,6 +3,7 @@ package com.example.appolimpiadas;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.VoiceInteractor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +18,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import java.lang.ref.ReferenceQueue;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,7 +39,7 @@ public class Comentarios extends AppCompatActivity {
         ComentateEsta.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    EjecutarComentario("http://192.168.137.33:8080/Rutas_Llanos/php/insetCom.php");
+                    EjecutarComentario("http://192.168.1.109:8080/Rutas_Llanos/php/InsertDesdeApp.php");
             }
         });
     }
