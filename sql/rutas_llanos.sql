@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 13-09-2022 a las 22:08:06
--- Versión del servidor: 10.4.21-MariaDB
--- Versión de PHP: 7.4.23
+-- Tiempo de generación: 17-09-2022 a las 02:27:51
+-- Versión del servidor: 10.4.24-MariaDB
+-- Versión de PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,26 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `rutas_llanos`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `comentarios`
+--
+
+CREATE TABLE `comentarios` (
+  `usuarios` varchar(255) COLLATE utf8_spanish2_ci NOT NULL,
+  `comentario` varchar(255) COLLATE utf8_spanish2_ci NOT NULL,
+  `fecha_comentario` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish2_ci;
+
+--
+-- Volcado de datos para la tabla `comentarios`
+--
+
+INSERT INTO `comentarios` (`usuarios`, `comentario`, `fecha_comentario`) VALUES
+('pipo', 'MY KINDOM CUM', '2022-09-16 21:18:23'),
+('Ivan', 'ME FUMO CUATRO PORROS', '2022-09-16 21:23:57');
 
 -- --------------------------------------------------------
 
