@@ -87,6 +87,10 @@ $varsesion = $_SESSION['nombre'];
 		<a href="turnos.php"><button>Alta de Turnos</button></a>
     	</div>
 
+<br>
+		<div class="container1">
+		<a href="formtestinsercom.php"><button>COM</button></a>
+    	</div>
 		<br>
 
 		<div class="container1">
@@ -100,20 +104,37 @@ $varsesion = $_SESSION['nombre'];
 		<br><br><br>
 
 		<h2>Comentarios de Usuarios</h2>
+			<br><br>
 
+<?php
+    $inc = include("conexion.php");
+
+ if ($inc) {
+	$consulta = "SELECT * FROM `comentarios` ";
+	$resultado = mysqli_query($conex,$consulta);
+ }
+
+
+
+     ?>
 		<table class = "tabla2" >
 			 <thead>
 
-                 <th class = "col">Usuario</th>
+                 <th class = "col">Nombre</th>
 				 <th class = "col">Comentario</th>
+				 <th class = "col">Fecha</th>
 
 			 </thead>
 				 <tbody>
-				 <tr>
-					<td>Juan</td>
-					<td>Que lugar de mierda y el carnotatauro es una cagada 0/10</td>
-				 </tr>
+				 <?php while($row = $resultado->fetch_assoc()){    ?>
+					 <tr>
+						 <td class = "fil"><?php  echo $row['usuarios'] ?></td>
+						 <td class = "fil"><?php  echo $row['comentario'] ?></td>
+                         <td class = "fil"><?php  echo $row['fecha_comentario'] ?></td>
+					
+				 <?php }?>
 				 </tbody>
 		 </table>
+
 		</body>
 </html>
